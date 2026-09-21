@@ -1,0 +1,153 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.logo_ms_xbox {
+    height: 30px;
+    display: block;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-nav nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 20px;
+}
+
+
+.banner {
+    background-image: url("IMG/img/banner.jpg");
+    background-repeat: no-repeat;
+
+    background-size: 100% auto;
+    background-color: black;
+
+    aspect-ratio: 2.7 / 1;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.banner_content {
+    max-width: 450px;
+    color: #fff;
+    transform: translateY(-10%);
+}
+
+.banner_content h1{
+    font-size: 46px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.banner_content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.banner_actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 18px;
+    display: inline-block;
+    transition: background-color 0.2%;
+}
+
+.btn_primary {
+    background-color: #9BF00B;
+    color: black;
+}
+
+.btn_secondary {
+    color: #9BF00B;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 5%;
+}
+
+.social span {
+    font-size: 15px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    height: 36px;
+    display: block;
+}
+
+.main_footer {
+    background-color: #F2F2F2;
+    padding: 30px 5% 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 120px;
+    margin-bottom: 60px;
+}
+
+.link-column h3{
+    font-size: 15px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.link-column ul li {
+    margin-bottom: 18px;
+    font-size: 12px;
+}
+
+
+.footer_bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_bottom ul {
+    display: flex;
+    gap: 25px;
+    font-size: 11px;
+}
