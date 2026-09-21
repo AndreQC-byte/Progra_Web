@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo"><h1>Xenoverse 2 HUB</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Razas</a></li>
+                    <li><a href="#">Transformaciones</a></li>
+                    <li><a href="#">QQ Bangs</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Desata Tu Verdadero Poder</h2>
+                <h3>"Descubre requisitos para alcanzar el Super Saiyan, Golden Freezer y más"</h3>
+            </div>
+        </section>
+
+        <section class="requisitos">
+            <div><h2>Tranformaciones Destacas</h2></div>
+            <div class="card-container">
+                <article class="card">
+                    <div class="img_placeholder1"></div>
+                    <div>
+                        <h3>Super Saiyan</h3>
+                        <a href="#">Ver Requisitos</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="img_placeholder2"></div>
+                    <div>
+                        <h3>Golden Freezer</h3>
+                        <a href="#">Ver Requisitos</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="img_placeholder3"></div>
+                    <div>
+                        <h3>Beast Mode</h3>
+                        <a href="#">Ver Requisitos</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="verifier-section">
+            <div class="verifier-container">
+                <p>Ingresa tu nivel actual en Xenoverse 2 (1-200):</p>
+                <input type="number" id="inputNivel" min="1" max="200" placeholder="Ej: 45">
+                <button onclick="verificarPoder()">VERIFICAR</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
