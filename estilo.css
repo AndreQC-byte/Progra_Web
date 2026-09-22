@@ -1,0 +1,149 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f7f3e9
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main_header {
+    background-color: #b5121b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.logo {
+    height: 30px;
+    display: block;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-nav nav ul {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 20px;
+}
+
+
+.banner {
+    background-image: url("IMG/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: black;
+    aspect-ratio: 2.7 / 1;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.banner_content {
+    max-width: 450px;
+    color: #fff;
+    transform: translateY(-10%);
+}
+
+.banner_content h1{
+    font-size: 46px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.banner_content p {
+    font-size: 12px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.banner_content h4 {
+    font-size: 12px;
+    color: #ffd60a;
+}
+
+.banner_actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 18px;
+    display: inline-block;
+    transition: background-color 0.2%;
+    border-radius: 5px;
+}
+
+.btn_primary {
+    background-color: #ffd60a;
+    color: black;
+}
+
+.destacados {
+    background-color: #f7f3e9;
+    max-width: 1100px;
+    margin: auto;
+    padding: 150px Auto;
+}
+
+.destacados h2 {
+    color: #b5121b;;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    height: auto;
+    width: 20%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-weight: bold;
+    color: black;
+}
+
+.card p {
+    color: black;
+}
+
+.btn-red {
+    color: #b5121b;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 0px 20px;
+    font-weight: bold;
+}
